@@ -1,10 +1,9 @@
+[![crates.io](https://img.shields.io/crates/v/microlog.svg)](https://crates.io/crates/microlog)
+[![Documentation](https://docs.rs/microlog/badge.svg)](https://docs.rs/microlog)
+
 # Microlog
 
 Dead simple log subscriber, coming in at only `38` meaningful lines of code.
-
-# Docs
-
-Run `cargo doc --open` to view the full documentation.
 
 # Example
 
