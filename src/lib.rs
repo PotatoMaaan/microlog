@@ -78,7 +78,7 @@ impl log::Log for MicroLog {
                 Level::Debug => "Debug".blue(),
                 Level::Trace => "Trace".white(),
             };
-            eprintln!("{} {}", lvl, record.args());
+            eprintln!("[{}] {}", lvl, record.args());
         }
     }
 
