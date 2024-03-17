@@ -1,7 +1,7 @@
 [package]
 name = "microlog"
 edition = "2021"
-version = "1.0.0"
+version = "1.0.1"
 license = "MIT OR Apache-2.0"
 description = "Dead simple log subscriber"
 repository = "https://github.com/PotatoMaaan/microlog"
