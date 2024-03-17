@@ -1,0 +1,19 @@
+[package]
+name = "microlog"
+edition = "2021"
+version = "1.0.0"
+license = "MIT OR Apache-2.0"
+description = "Dead simple log subscriber"
+repository = "https://github.com/PotatoMaaan/microlog"
+readme = "README.md"
+keywords = ["logging", "log", "logger", "minimal"]
+categories = ["development-tools::debugging"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+colored = "2.1.0"
+log = "0.4.21"
+
+[features]
+no-color = ["colored/no-color"]
